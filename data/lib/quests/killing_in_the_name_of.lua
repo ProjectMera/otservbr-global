@@ -50,6 +50,7 @@ tasks =
 		creatures = {
 			"goblin",
 			"goblin assassin",
+			"goblin scavenger",
 			"goblin leader"
 		},
 		rewards = {
