@@ -1,12 +1,10 @@
 # OTServ Mera - otservmera forked from OTSERVBR-GLOBAL
 
-[![Discord Channel](https://img.shields.io/discord/528117503952551936.svg?style=flat-square&logo=discord)](https://discord.gg/ZBNJqDVgeJ)
 
 ### Special Thanks
 
-  * our partners
-  * our crew (majesty, gpedro, eduardo dantas, foot)
-  * [our contributors](https://github.com/opentibiabr/OTServBR-Global/graphs/contributors)
+  * our crew (foulwerp, tabrune)
+  * [otservbr team](https://github.com/opentibiabr)
   * [fear lucien](https://github.com/FearLucien)
   * [cjaker](https://github.com/Eternal-Scripts)
   * [slavidodo](https://github.com/slavidodo)
