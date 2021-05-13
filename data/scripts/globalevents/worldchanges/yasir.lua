@@ -58,7 +58,7 @@ end
 local yasir = GlobalEvent("yasir")
 function yasir.onStartup()
 	if yasirEnabled then
-		if math.random(100) <= yasirChance then
+		if true then
 			local randTown = config[math.random(#config)]
 			Spdlog.info(string.format("[WorldChanges] Yasir: %s", randTown.mapName))
 			iterateArea(

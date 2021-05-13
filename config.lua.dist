@@ -21,7 +21,7 @@ blackSkullDuration = 3
 orangeSkullDuration = 7
 
 onlyInvitedCanMoveHouseItems = true
-cleanProtectionZones = false
+cleanProtectionZones = true
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
@@ -32,10 +32,10 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Bem vindo ao OTServBR-Global!"
+motd = "Project Mera v0.2 Client Out Now!"
 onePlayerOnlinePerAccount = true
 allowClones = false
-serverName = "OTServBR-Global"
+serverName = "Mera"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -74,7 +74,7 @@ deathLosePercent = -1
 -- Periods: daily/weekly/monthly/yearly/never
 housePriceEachSQM = 1000
 houseRentPeriod = "never"
-houseOwnedByAccount = false
+houseOwnedByAccount = true
 
 -- Item Usage
 timeBetweenActions = 200
@@ -101,7 +101,7 @@ mapCustomName = "otservbr-custom"
 mapCustomFile = "data/world/custom/otservbr-custom.otbm"
 mapCustomSpawn = "data/world/custom/otservbr-custom-spawn.xml"
 mapCustomAuthor = "OTServBR"
-mapCustomEnabled = true
+mapCustomEnabled = false
 
 -- Market
 marketOfferDuration = 30 * 24 * 60 * 60
@@ -112,21 +112,21 @@ maxMarketOffersAtATimePerPlayer = 100
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = ""
-mysqlDatabase = "otservbr-global"
+mysqlPass = "macbook"
+mysqlDatabase = "otservbr"
 mysqlPort = 3306
 mysqlSock = ""
 
 -- Misc.
 allowChangeOutfit = true
-freePremium = false
-kickIdlePlayerAfterMinutes = 15
+freePremium = true
+kickIdlePlayerAfterMinutes = 30
 maxMessageBuffer = 4
-emoteSpells = false
+emoteSpells = true
 classicEquipmentSlots = false
 allowWalkthrough = true
 coinPacketSize = 25
-coinImagesURL = "http://127.0.0.1/images/store/"
+coinImagesURL = "http://104.192.4.165/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 
@@ -134,9 +134,9 @@ showScriptsLogInConsole = false
 -- NOTE: serverSaveNotifyDuration in minutes
 serverSaveNotifyMessage = true
 serverSaveNotifyDuration = 5
-serverSaveCleanMap = false
+serverSaveCleanMap = true
 serverSaveClose = false
-serverSaveShutdown = true
+serverSaveShutdown = false
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used as a fallback only
@@ -145,7 +145,7 @@ rateExp = 1
 rateSkill = 50
 rateLoot = 3
 rateMagic = 25
-rateSpawn = 1
+rateSpawn = 2
 
 -- Monster rates
 rateMonsterHealth = 1.0
@@ -170,10 +170,10 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "OTServBR-Global"
-ownerEmail = ""
-url = "https://github.com/opentibiabr/otservbr-global"
-location = "South America"
+ownerName = "FTCORP"
+ownerEmail = "frdpayment@gmail.com"
+url = "http://projectmera.xyz"
+location = "North America"
 
 -- Sends Discord webhook notifications on startup, raids and shutdown.
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
