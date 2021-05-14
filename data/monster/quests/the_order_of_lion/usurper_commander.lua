@@ -27,7 +27,7 @@ monster.maxSummons = 5
 
 monster.faction = FACTION_LIONUSURPERS
 monster.enemyFactions = {FACTION_LION, FACTION_PLAYER}
-monster.targetPreferPlayer = true
+--monster.targetPreferPlayer = true
 
 monster.summons = {
 	{name = "hardened usurper archer", chance = 0, interval = 600000},
