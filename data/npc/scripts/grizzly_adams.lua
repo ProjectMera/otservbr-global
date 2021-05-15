@@ -68,7 +68,7 @@ local grizzlyAdamsConfig = {
 
 		bigGameHunter_rank = {
 			{id=11161, buy=0, sell=6000, name="bonebeast trophy"},
-			{id=7397, buy=0, sell=3000, name="deer trophy"},
+			{id=7397, buy=30000, sell=3000, name="deer trophy"},
 			{id=7400, buy=0, sell=3000, name="lion trophy"},
 			{id=7395, buy=0, sell=1000, name="orc trophy"},
 			{id=7394, buy=0, sell=3000, name="wolf trophy"}
