@@ -15,6 +15,7 @@ HomeBanners = {
 }
 
 GameStore.Categories = {
+--[[
   {
  --Premium Time
    icons = { "Category_PremiumTime.png" },
@@ -1032,7 +1033,8 @@ GameStore.Categories = {
       },
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
-  }, 
+  },
+	]]--
  -- Cosmetics
  {
    icons = { "Category_Cosmetics.png" },
@@ -4103,6 +4105,7 @@ GameStore.Categories = {
 		  },
   }, 
 -- Boost
+--[[
  {   
    icons = { "Category_Boosts.png" },
    name = "Boosts",
@@ -4119,6 +4122,7 @@ GameStore.Categories = {
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
   },
+]]--
 -- Extras
  {
    icons = { "Category_Extras.png" },
@@ -4152,7 +4156,7 @@ GameStore.Categories = {
         },
       },
   },
--- Usefull Things  
+-- Useful Things  
   {   
    icons = { "Category_UsefulThings.png" },
    name = "Useful Things",
@@ -4178,6 +4182,7 @@ GameStore.Categories = {
           description = "<i>Carries as many gold, platinum or crystal coins as your capacity allows, however, no other items.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
           type = GameStore.OfferTypes.OFFER_TYPE_POUNCH,
         },
+--[[
         {
           icons = { "Instant_Reward_Access.png" },
           name = "Instant Reward Access",
@@ -4194,7 +4199,8 @@ GameStore.Categories = {
           id = 65005,
           description = "<i>Assign as many of your unlocked Charms as you like and get a 25% discount whenever you are removing a Charm from a creature!</i>\n\n{character}\n{once}",
           type = GameStore.OfferTypes.OFFER_TYPE_CHARMS,
-        }, 
+        },
+]]--
         {
           icons = { "Magic_Gold_Converter.png" },
           name = "Magic Gold Converter",
@@ -4212,6 +4218,7 @@ GameStore.Categories = {
           description = "<i>Get an additional prey slot to activate additional prey!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Prey dialog",
           type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT,
         },
+--[[
         {
           icons = { "Prey_Bonus_Reroll.png" },
           name = "Prey Wildcard",
@@ -4229,6 +4236,7 @@ GameStore.Categories = {
           description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
           type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
         },
+]]--
         {
           icons = { "Temple_Teleport.png" },
           name = "Temple Teleport",
