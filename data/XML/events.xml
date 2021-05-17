@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
+	<event name="Launch Event" startdate="5/16/2021" enddate="5/31/2021" >
+		<ingame exprate="1" lootrate="1" spawnrate="1" skillrate="1" />
+		<description description="Celebrating the successful launch of Project Mera! Join us in celebration on Discord!" />
+		<colors colordark="#735D10" colorlight="#8B6D05" />
+		<details displaypriority="1" isseasonal="0" specialevent="1" />
+	</event>
 	<event name="Otservbr example 1" startdate="11/03/2020" enddate="11/30/2020" script="example.lua" >
 		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
 		<description description="Otserver br example 1 description double exp and a half, double loot !chance!, regular spawn and double skill" />
