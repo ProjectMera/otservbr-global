@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
 	<event name="Launch Event" startdate="5/16/2021" enddate="5/31/2021" >
-		<ingame exprate="1" lootrate="1" spawnrate="1" skillrate="1" />
+		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="100" />
 		<description description="Celebrating the successful launch of Project Mera! Join us in celebration on Discord!" />
 		<colors colordark="#735D10" colorlight="#8B6D05" />
 		<details displaypriority="1" isseasonal="0" specialevent="1" />
