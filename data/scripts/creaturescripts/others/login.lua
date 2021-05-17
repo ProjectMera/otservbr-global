@@ -27,6 +27,7 @@ function playerLogin.onLogin(player)
 	}
 	if player:getLastLoginSaved() == 0 then
 		player:sendOutfitWindow()
+		Game.broadcastMessage('You feel a shift as ' .. player:getName() .. ' enters the world for the first time...', MESSAGE_EVENT_ADVANCE)
 		local backpack = player:addItem(1988)
 		if backpack then
 			for i = 1, #items do
