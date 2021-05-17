@@ -32,7 +32,7 @@ function count_monsters.onSay(player, words, param)
 		end
 	end
 
-	writing_file:write('--- Total de Monstros no Servidor ---\n')
+	writing_file:write('--- Total Monster Count ---\n')
 
 	for monster, count in pairsByKeys(monsters) do
 		writing_file:write(monster..' - '..count..'\n')
