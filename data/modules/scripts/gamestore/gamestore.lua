@@ -4240,7 +4240,7 @@ GameStore.Categories = {
         {
           icons = { "Temple_Teleport.png" },
           name = "Temple Teleport",
-          price = 0,
+          price = 10,
           description = "<i>Teleports you instantly to your home temple.</i>\n\n{character}\n{useicon} use it to teleport you to your home temple</i>\n{battlesign}\n{info} does not work in no-logout zones or close to a character's home temple",
           type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
         },
