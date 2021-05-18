@@ -5,7 +5,7 @@ function CoinDistribute.onThink(interval)
 	if next(players) == nil then
 		return true;
 	end
-	local amount = tonumber(1)
+	local amount = tonumber(5) -- Coin Amount
 	for _, targetPlayer in ipairs(players) do
 		if targetPlayer ~= nil then
 			local accountId = getAccountNumberByPlayerName(targetPlayer)

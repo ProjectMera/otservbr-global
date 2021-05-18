@@ -4167,7 +4167,7 @@ GameStore.Categories = {
         {
           icons = { "Gold_Converter.png" },
           name = "Gold Converter",
-          price = 5,
+          price = 50,
           itemtype = 26378,
           charges = 500,
           description = "<i>Changes either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!</i>\n\n{character}\n{storeinbox}\n{useicon} use it on a stack of 100 to change it to the superior currency\n{info} usable 500 times a piece",
@@ -4204,7 +4204,7 @@ GameStore.Categories = {
         {
           icons = { "Magic_Gold_Converter.png" },
           name = "Magic Gold Converter",
-          price = 15,
+          price = 150,
           itemtype = 32109,
           charges = 500,
           description = "<i>Changes automatically either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!</i>\n\n{character}\n{storeinbox}\n{useicon} use it to activate or deactivate the automatic conversion\n{info} converts all stacks of 100 gold or platinum in the inventory whenever it is activated\n{info} deactivated upon purchase\n{info} usable for 500 conversions a piece",
@@ -4240,7 +4240,7 @@ GameStore.Categories = {
         {
           icons = { "Temple_Teleport.png" },
           name = "Temple Teleport",
-          price = 15,
+          price = 0,
           description = "<i>Teleports you instantly to your home temple.</i>\n\n{character}\n{useicon} use it to teleport you to your home temple</i>\n{battlesign}\n{info} does not work in no-logout zones or close to a character's home temple",
           type = GameStore.OfferTypes.OFFER_TYPE_TEMPLE,
         },
