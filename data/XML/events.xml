@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <events>
 	<event name="Free M Coins!" startdate="05/16/2021" enddate="12/31/2025" script="coinevent.lua" >
-		<ingame exprate="100" lootrate="100" spawnrate="100" skillrate="100" />
+		<ingame exprate="100" lootrate="100" spawnrate="125" skillrate="100" />
 		<description description="Free Mera Coins are given out each hour to every player that is online! No matter your playstyle, you can earn Mera coins by simply playing your way!" />
 		<colors colordark="#735D10" colorlight="#8B6D05" />
 		<details displaypriority="1" isseasonal="0" specialevent="0" />
 	</event>
-	<event name="Otservbr example 1" startdate="11/03/2020" enddate="11/30/2020" script="example.lua" >
-		<ingame exprate="250" lootrate="200" spawnrate="100" skillrate="200" />
-		<description description="Otserver br example 1 description double exp and a half, double loot !chance!, regular spawn and double skill" />
+	<!--
+	<event name="+50% EXP/LOOT!" startdate="05/21/2021" enddate="5/23/2021" script="example.lua" >
+		<ingame exprate="150" lootrate="150" spawnrate="100" skillrate="100" />
+		<description description="It's the weekend! You know what that means, Higher EXP and Loot rates all weekend long! " />
 		<colors colordark="#235c00" colorlight="#2d7400" />
 		<details displaypriority="6" isseasonal="0" specialevent="0" />
-	</event>
+	</event>-->
 	<event name="Otservbr example 2" startdate="10/2/2020" enddate="11/7/2020" script="example.lua" >
 		<ingame exprate="50" lootrate="300" spawnrate="150" skillrate="100" />
 		<description description="Otserver br example 2 description 50% less exp, triple loot !chance!, 50% faster spawn and regular skill" />
