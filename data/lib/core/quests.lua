@@ -1371,7 +1371,7 @@ if not Quests then
 					startValue = 0,
 					endValue = 100,
 					description = function(player)
-						return string.format("You already hunted %d/100 Trolls.", (math.max(player:getStorageValue(1501), 0)))
+						return string.format("You already hunted %d/100 Trolls.", (math.max(player:getStorageValue(65001), 0)))
 					end
 				},
 				[37] = {
@@ -1381,7 +1381,7 @@ if not Quests then
 					startValue = 0,
 					endValue = 150,
 					description = function(player)
-						return string.format("You already hunted %d/150 Goblins.", (math.max(player:getStorageValue(1502), 0)))
+						return string.format("You already hunted %d/150 Goblins.", (math.max(player:getStorageValue(65002), 0)))
 					end
 				},
 				[38] = {
@@ -1391,7 +1391,7 @@ if not Quests then
 					startValue = 0,
 					endValue = 5000,
 					description = function(player)
-						return string.format("You already hunted %d/5000 Minotaurs.", (math.max(player:getStorageValue(65002), 0)))
+						return string.format("You already hunted %d/5000 Minotaurs.", (math.max(player:getStorageValue(65049), 0)))
 					end
 				},
 				[39] = {
@@ -1403,7 +1403,7 @@ if not Quests then
 					description = function(player)
 						return string.format(
 							"You already hunted %d/4000 Necromancers and Priestess.",
-							(math.max(player:getStorageValue(65001), 0))
+							(math.max(player:getStorageValue(65050), 0))
 						)
 					end
 				},
