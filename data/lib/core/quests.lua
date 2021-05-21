@@ -1366,7 +1366,7 @@ if not Quests then
 				},
 				[36] = {
 					name = "Edron City - Elite Hunting: Trolls",
-					storageId = 1501,
+					storageId = 65001,
 					missionId = 10116,
 					startValue = 0,
 					endValue = 100,
@@ -1376,7 +1376,7 @@ if not Quests then
 				},
 				[37] = {
 					name = "Edron City - Elite Hunting: Goblins",
-					storageId = 1502,
+					storageId = 65002,
 					missionId = 10117,
 					startValue = 0,
 					endValue = 150,
@@ -1386,7 +1386,7 @@ if not Quests then
 				},
 				[38] = {
 					name = "Paw and Fur: Minotaurs",
-					storageId = 65002,
+					storageId = 65049,
 					missionId = 10118,
 					startValue = 0,
 					endValue = 5000,
@@ -1396,7 +1396,7 @@ if not Quests then
 				},
 				[39] = {
 					name = "Paw and Fur: Necromancers and Priestess",
-					storageId = 65001,
+					storageId = 65050,
 					missionId = 10119,
 					startValue = 0,
 					endValue = 4000,
