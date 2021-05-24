@@ -312,7 +312,7 @@ ChestUnique = {
 	[6024] = {
 		itemId = 1740,
 		itemPos = {x = 32804, y = 31582, z = 2},
-		reward = {{2197, 5}, {2167, 1}},
+		reward = {{2197, 1}, {2167, 1}},
 		storage = Storage.Quest.Draconia.Reward2
 	},
 	-- Adorned UH rune quest
@@ -454,7 +454,7 @@ ChestUnique = {
 	[6043] = {
 		itemId = 1738,
 		itemPos = {x = 33158, y = 31621, z = 15},
-		reward = {{2201, 200}},
+		reward = {{2201, 1}},
 		storage = Storage.Quest.WeddingRing.DragonNecklace
 	},
 	-- Weeding ring
@@ -629,7 +629,7 @@ ChestUnique = {
 		itemId = 1740,
 		itemPos = {x = 33078, y = 31656, z = 11},
 		container = 1987,
-		reward = {{2214, 1}, {2201, 200}, {2145, 7}},
+		reward = {{2214, 1}, {2201, 1}, {2145, 7}},
 		weight = 27,
 		storage = Storage.Quest.FireAxe.Bag
 	},
@@ -756,7 +756,7 @@ ChestUnique = {
 	[6082] = {
 		itemId = 1740,
 		itemPos = {x = 32572, y = 32195, z = 14},
-		reward = {{2197, 5}},
+		reward = {{2197, 1}},
 		storage = Storage.Quest.MadMageRoom.StoneSkinAmulet
 	},
 	-- Skull of ratha quest
