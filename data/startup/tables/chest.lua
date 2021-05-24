@@ -386,7 +386,7 @@ ChestUnique = {
 	[6034] = {
 		itemId = 1738,
 		itemPos = {x = 33095, y = 31800, z = 10},
-		reward = {{2170, 200}},
+		reward = {{2170, 1}},
 		storage = Storage.Quest.EdronGoblin.SilverAmulet
 	},
 	-- Steel shield
@@ -424,7 +424,7 @@ ChestUnique = {
 	[6039] = {
 		itemId = 1741,
 		itemPos = {x = 33143, y = 31719, z = 10},
-		reward = {{2199, 150}},
+		reward = {{2199, 1}},
 		storage = Storage.Quest.TrollCave.GarlicNecklace
 	},
 	-- Brass legs
