@@ -42534,37 +42534,37 @@
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32125" article="a" name="training axe">
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32126" article="a" name="training club">
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32127" article="a" name="training bow">
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32128" article="a" name="training rod">
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32129" article="a" name="training wand">
 		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
-		<attribute key="moveable" value="0" />
+		<attribute key="moveable" value="1" />
 	</item>
 	<item id="32142" article="an" name="exercise dummy">
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy." />
