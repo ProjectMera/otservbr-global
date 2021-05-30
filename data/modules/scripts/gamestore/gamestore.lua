@@ -4240,7 +4240,7 @@ GameStore.Categories = {
         },
       }, 
   },
-   Tournament
+   --Tournament
    {
    icons = { "Category_Tournament.png" },
    name = "Tournament",
