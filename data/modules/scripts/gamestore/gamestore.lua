@@ -4105,7 +4105,6 @@ GameStore.Categories = {
 		  },
   }, 
 -- Boost
---[[
  {   
    icons = { "Category_Boosts.png" },
    name = "Boosts",
@@ -4113,7 +4112,7 @@ GameStore.Categories = {
         {
           icons = { "XP_Boost.png" },
           name = "XP Boost",
-          price = 30,
+          price = 250,
           id = 65010,
           description = "<i>Purchase a boost that increases the experience points your character gains from hunting by 50%!</i>\n\n{character}\n{info} lasts for 1 hour hunting time\n{info} paused if stamina falls under 14 hours\n{info} can be purchased up to 5 times between 2 server saves\n{info} price increases with every purchase\n{info} cannot be purchased if an XP boost is already active",
           type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,			
@@ -4122,7 +4121,6 @@ GameStore.Categories = {
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
   },
-]]--
 -- Extras
  {
    icons = { "Category_Extras.png" },
@@ -4182,7 +4180,6 @@ GameStore.Categories = {
           description = "<i>Carries as many gold, platinum or crystal coins as your capacity allows, however, no other items.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
           type = GameStore.OfferTypes.OFFER_TYPE_POUNCH,
         },
---[[
         {
           icons = { "Instant_Reward_Access.png" },
           name = "Instant Reward Access",
@@ -4195,12 +4192,11 @@ GameStore.Categories = {
         {                
           icons = { "Charm_Expansion_Offer.png" },
           name = "Charm Expansion",
-          price = 450,
+          price = 900,
           id = 65005,
           description = "<i>Assign as many of your unlocked Charms as you like and get a 25% discount whenever you are removing a Charm from a creature!</i>\n\n{character}\n{once}",
           type = GameStore.OfferTypes.OFFER_TYPE_CHARMS,
         },
-]]--
         {
           icons = { "Magic_Gold_Converter.png" },
           name = "Magic Gold Converter",
@@ -4218,7 +4214,6 @@ GameStore.Categories = {
           description = "<i>Get an additional prey slot to activate additional prey!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Prey dialog",
           type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT,
         },
---[[
         {
           icons = { "Prey_Bonus_Reroll.png" },
           name = "Prey Wildcard",
@@ -4236,7 +4231,6 @@ GameStore.Categories = {
           description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
           type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS,
         },
-]]--
         {
           icons = { "Temple_Teleport.png" },
           name = "Temple Teleport",
@@ -4246,7 +4240,7 @@ GameStore.Categories = {
         },
       }, 
   },
-   --Tournament
+   --[[Tournament
    {
    icons = { "Category_Tournament.png" },
    name = "Tournament",
@@ -4266,6 +4260,7 @@ GameStore.Categories = {
           price = 500, 
         }, 
 			},
+]]
  -- Exclusive Offers  
  }, { 
       icons = { "Category_ExclusiveOffers.png" },
@@ -4281,7 +4276,6 @@ GameStore.Categories = {
           id = 146,
           description = "{info} usable by all characters of the account\n{speedboost}\n\n<i>A fierce and grim guardian of the underworld has risen to fight side by side with the bravest warriors in order to send evil creatures into the realm of the dead. The three headed Cerberus Champion is constantly baying for blood and using its sharp fangs it easily rips apart even the strongest armour and shield.",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Jousting_Eagle.png" },
@@ -4290,7 +4284,6 @@ GameStore.Categories = {
           id = 145,
           description = "{info} usable by all characters of the account\n{speedboost}\n\n<i>High above the clouds far away from dry land, the training of giant eagles takes place. Only the cream of the crop is able to survive in such harsh environment long enough to call themselves Jousting Eagles while the weaklings find themselves at the bottom of the sea. The tough ones become noble and graceful mounts that are well known for their agility and endurance.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Outfit_Lion_of_War_Male_Addon_3.png", "Outfit_Lion_of_War_Female_Addon_3.png" },
@@ -4300,7 +4293,6 @@ GameStore.Categories = {
           addon = 3,
           description = "{info} usable by all characters of the account\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>The Lion of War has fought on countless battlefields and never lost once. Enemies tremble with fear when he batters his sword against his almighty shield. Realising that a Lion of War knows no mercy, his opponents often surrender before the battle even begins.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Outfit_Veteran_Paladin_Male_Addon_3.png", "Outfit_Veteran_Paladin_Female_Addon_3.png" },
@@ -4310,7 +4302,6 @@ GameStore.Categories = {
           addon = 3,
           description = "{info} usable by all characters of the account\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>A Veteran Paladin has mastered the art of distance fighting. No matter how far away his prey may be, a marksman like the Veteran Paladin will always hit with extraordinary precision. No one can escape his keen hawk-eyed vision and even small stones become deadly weapons in his hands.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Outfit_Void_Master_Male_Addon_3.png", "Outfit_Void_Master_Female_Addon_3.png" },
@@ -4320,7 +4311,6 @@ GameStore.Categories = {
           addon = 3,
           description = "{info} usable by all characters of the account\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>According to ancient rumours, the pulsating orb that the Void Master balances skilfully on the tip of his staff consists of powerful cosmic spheres. If you gaze too long into the infinite emptiness inside the orb, its powers will absorb your mind.</i>",
           type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Cerberus_Champion_Puppy.png" },
@@ -4330,7 +4320,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Jousting_Eagle_Baby.png" },
@@ -4340,7 +4329,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Sublime_Tournament_Accolade.png" },
@@ -4350,7 +4338,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Sublime_Tournament_Carpet.png" },
@@ -4360,7 +4347,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{useicon} use an unwrapped carpet to roll it out or up\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Tournament_Accolade.png" },
@@ -4370,7 +4356,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Tournament_Carpet.png" },
@@ -4380,7 +4365,6 @@ GameStore.Categories = {
           count = 1,
           description = "{house}\n{box}\n{storeinbox}\n{useicon} use an unwrapped carpet to roll it out or up\n{backtoinbox}",
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-          coinType = GameStore.CointType.Tournament,
         },
         {
           icons = { "Baby_Vulcongra_Accolade.png" },
