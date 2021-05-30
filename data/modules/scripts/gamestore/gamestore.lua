@@ -4240,14 +4240,14 @@ GameStore.Categories = {
         },
       }, 
   },
-   --[[Tournament
+   Tournament
    {
    icons = { "Category_Tournament.png" },
    name = "Tournament",
    rookgaard = true,
    subclasses = {"Tickets", "Exclusive Offers"},
   },
-  -- Tickets
+  --[[-- Tickets
 	{
    icons = { "Category_Tickets.png" },
    parent = "Tournament", 
