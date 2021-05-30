@@ -108,6 +108,7 @@ monster.loot = {
 	{id = 1852, chance = 4000},
 	{id = 2072, chance = 5000},
 	{id = 2102, chance = 500},
+	{name = "banana skin", chance = 10700},
 	{name = "snowball", chance = 7000, maxCount = 5},
 	{name = "piggy bank", chance = 1000},
 	{name = "gold coin", chance = 22500, maxCount = 22},
