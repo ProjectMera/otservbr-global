@@ -4260,9 +4260,10 @@ GameStore.Categories = {
           price = 500, 
         }, 
 			},
+	  },
 ]]
  -- Exclusive Offers  
- }, { 
+    { 
       icons = { "Category_ExclusiveOffers.png" },
       name = "Exclusive Offers",
       parent = "Tournament", 
@@ -4457,7 +4458,7 @@ GameStore.Categories = {
           type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
         },
 	},
- },
+ }
 }   
 
 
