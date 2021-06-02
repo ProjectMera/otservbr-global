@@ -52173,13 +52173,13 @@
 	</item>
 	<item id="40359" article="a" name="jungle quiver">
 		<attribute key="weight" value="1800" />
-		<attribute key="containerSize" value="8" />
+		<attribute key="containerSize" value="12" />
 		<attribute key="weaponType" value="quiver" />
 		<attribute key="slotType" value="right-hand" />
 	</item>
 	<item id="40397" article="a" name="quiver">
 		<attribute key="weight" value="1700" />
-		<attribute key="containerSize" value="6" />
+		<attribute key="containerSize" value="10" />
 		<attribute key="weaponType" value="quiver" />
 		<attribute key="slotType" value="right-hand" />
 	</item>
@@ -52307,13 +52307,13 @@
 	</item>
 	<item id="40683" article="a" name="blue quiver">
 		<attribute key="weight" value="1700" />
-		<attribute key="containerSize" value="6" />
+		<attribute key="containerSize" value="10" />
 		<attribute key="weaponType" value="quiver" />
 		<attribute key="slotType" value="right-hand" />
 	</item>
 	<item id="40684" article="a" name="red quiver">
 		<attribute key="weight" value="1700" />
-		<attribute key="containerSize" value="6" />
+		<attribute key="containerSize" value="10" />
 		<attribute key="weaponType" value="quiver" />
 		<attribute key="slotType" value="right-hand" />
 	</item>

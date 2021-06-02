@@ -34,8 +34,6 @@ function fishing.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			player:addItem(lootRare[math.random(#lootRare)], 1)
 		elseif rareChance <= 10 then
 			player:addItem(lootCommon[math.random(#lootCommon)], 1)
-		else
-			player:addItem(lootTrash[math.random(#lootTrash)], 1)
 		end
 		return true
 	end
